@@ -1,17 +1,11 @@
-# Parche Sprint 3.2.2 — Sobre Premium
+# Parche Sprint 3.2.3 — Sobre más cercano al mockup
 
-Este parche reemplaza únicamente:
+Este parche reemplaza el sobre por una ilustración SVG dedicada.
 
-`components/Envelope/Envelope.tsx`
+## Archivos que debes subir/reemplazar
 
-## Cómo usarlo
-1. Abre tu repositorio en GitHub.
-2. Ve a `components/Envelope/Envelope.tsx`.
-3. Reemplaza todo el contenido por el archivo incluido.
-4. Guarda/commit.
-5. Vercel hará deploy automáticamente.
+1. `components/Envelope/Envelope.tsx`
+2. `public/illustrations/envelope-mockup-premium.svg`
 
-Este parche mantiene:
-- Botón Abrir invitación.
-- Sello interactivo.
-- Animación del sobre.
+## Importante
+Debes subir ambos archivos. Si solo reemplazas el componente y no subes el SVG, no se verá el nuevo diseño.
