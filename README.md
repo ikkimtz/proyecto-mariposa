@@ -1,10 +1,17 @@
-# Cumpleaños Inolvidable — Sprint 3.2.1
+# Parche Sprint 3.2.2 — Sobre Premium
 
-Implementación del Sobre Premium.
+Este parche reemplaza únicamente:
 
-- Se conserva el botón **Abrir invitación**.
-- El sello de cera también abre la invitación.
-- Animación cinematográfica: sello, solapa, carta, mariposas y transición.
-- Se mantiene sin música, sin galería y sin regalos.
+`components/Envelope/Envelope.tsx`
 
-Rutas: `/` y `/admin`.
+## Cómo usarlo
+1. Abre tu repositorio en GitHub.
+2. Ve a `components/Envelope/Envelope.tsx`.
+3. Reemplaza todo el contenido por el archivo incluido.
+4. Guarda/commit.
+5. Vercel hará deploy automáticamente.
+
+Este parche mantiene:
+- Botón Abrir invitación.
+- Sello interactivo.
+- Animación del sobre.
