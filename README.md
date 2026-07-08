@@ -1,32 +1,33 @@
-# Proyecto Mariposa — Proyecto real v0.1
+# Proyecto Mariposa — Proyecto real v0.2
 
-Base profesional en Next.js para la invitación **Cumpleaños Inolvidable** de Jessica & Claudia.
+Sprint 2: **Experiencia Premium** para la invitación **Cumpleaños Inolvidable**.
 
-## Incluye
-- Next.js + TypeScript.
-- Tailwind CSS.
-- Framer Motion.
-- Componentes separados.
-- Contenido editable en `data/event.json`.
-- Sin música, sin galería y sin regalos.
-- RSVP provisional: nombre + asistencia sí/no.
+## Cambios de esta versión
+- Sobre rediseñado con más textura, profundidad y apertura más elegante.
+- Mariposas con trayectorias más orgánicas.
+- Flores decorativas más elaboradas.
+- Primera ruta `/admin` preparada para el futuro panel privado.
+- Se mantiene el flujo sin música, sin galería y sin regalos.
+- RSVP sigue provisional; todavía no está conectado a Google Sheets.
 
 ## Cómo ejecutarlo
-
-1. Instala Node.js.
-2. Abre esta carpeta en VS Code.
-3. Ejecuta:
 
 ```bash
 npm install
 npm run dev
 ```
 
-4. Abre en el navegador:
+Abre:
 
 ```bash
 http://localhost:3000
 ```
 
+Panel inicial:
+
+```bash
+http://localhost:3000/admin
+```
+
 ## Próximo paso
-Conectar el RSVP con Google Sheets mediante Google Apps Script.
+Conectar RSVP con Google Sheets y alimentar automáticamente el panel `/admin`.
