@@ -1,0 +1,39 @@
+{
+  "project": {
+    "name": "Proyecto Mariposa",
+    "invitationName": "Cumpleaños Inolvidable",
+    "version": "real-v0.1"
+  },
+  "event": {
+    "type": "Cumpleaños",
+    "honorees": [
+      "Jessica",
+      "Claudia"
+    ],
+    "date": "2026-08-22",
+    "time": "17:30",
+    "displayDate": "Sábado 22 de agosto",
+    "displayTime": "17:30 horas",
+    "message": [
+      "Hay momentos que merecen ser celebrados con quienes más queremos.",
+      "Nos llenará de alegría compartir este día contigo.",
+      "Esperamos contar con tu compañía."
+    ]
+  },
+  "location": {
+    "name": "Salón Paraíso Fiesta",
+    "address": "Checoslovacos #1 esquina Camino a Santa Fe, Col. Zénon Delgado, C.P. 01130, CDMX.",
+    "mapsUrl": "https://maps.app.goo.gl/VeNmVm5VtAewtaaN8"
+  },
+  "rsvp": {
+    "options": [
+      "Sí asistiré",
+      "No podré asistir"
+    ]
+  },
+  "features": {
+    "music": false,
+    "gallery": false,
+    "gifts": false
+  }
+}
