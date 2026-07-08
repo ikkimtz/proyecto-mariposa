@@ -1,26 +1,2 @@
-type HeroProps = {
-  invitationName: string;
-  event: {
-    honorees: string[];
-    displayDate: string;
-    displayTime: string;
-  };
-};
-
-export function Hero({ invitationName, event }: HeroProps) {
-  return (
-    <section className="panel flex min-h-[86vh] flex-col items-center justify-center">
-      <div className="mb-6 grid h-[88px] w-[88px] place-items-center rounded-full border border-[rgba(201,162,39,.45)] bg-gradient-to-br from-white to-[#fff4f3] font-serif font-bold text-[#8b6d20] shadow-[0_14px_24px_rgba(201,162,39,.12)]">
-        J & C
-      </div>
-      <p className="kicker">{invitationName}</p>
-      <h2 className="my-3 font-script text-[clamp(3.4rem,14vw,6rem)] leading-none text-[#553D42]">
-        {event.honorees.join(" & ")}
-      </h2>
-      <p className="mb-5 font-serif text-[1.38rem]">celebran su cumpleaños</p>
-      <p className="rounded-full bg-[rgba(247,217,227,.55)] px-5 py-3 font-medium text-[#6d5050]">
-        {event.displayDate} · {event.displayTime}
-      </p>
-    </section>
-  );
-}
+type HeroProps={invitationName:string;event:{honorees:string[];displayDate:string;displayTime:string}};
+export function Hero({invitationName,event}:HeroProps){return <section className="panel flex min-h-[86vh] flex-col items-center justify-center"><div className="mb-6 grid h-[88px] w-[88px] place-items-center rounded-full border border-[rgba(200,168,78,.45)] bg-gradient-to-br from-white to-[#fff4f3] font-serif font-bold text-[#8b6d20] shadow-[0_14px_24px_rgba(200,168,78,.12)]">J & C</div><p className="kicker">{invitationName}</p><h2 className="my-3 font-script text-[clamp(3.4rem,14vw,6rem)] leading-none text-[#553D42]">{event.honorees.join(" & ")}</h2><p className="mb-5 font-serif text-[1.38rem]">celebran su cumpleaños</p><p className="rounded-full bg-[rgba(232,184,199,.52)] px-5 py-3 font-medium text-[#6d5050]">{event.displayDate} · {event.displayTime}</p></section>}
